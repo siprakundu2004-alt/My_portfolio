@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .about img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    .skills ul li {
+      background: #eee;
+      margin: 5px;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .resume {
+      text-align: center;
+    }
+
+    .resume a {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SIPRA KUNDU</h1>
+    <p>Web Developer | Designer | Programmer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="images/siprakundu.jpg" alt="My Photo">
+    <p>I am a final-year BCA student passionate about software development and web technologies. Skilled in C, Java, Python, HTML, CSS, and JavaScript, I am eager to apply my knowledge and start my career in the IT industry as a fresher.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>C</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="images/calculator_project.png" alt="Calculator Project">
+      <h3>Calculator</h3>
+      <p>A basic calculator built with HTML, CSS, and JavaScript, featuring a clean interface for performing addition, subtraction, multiplication, and division.</p>
+    </div>
+    <div class="project-card">
+      <img src="images/project2.png" alt="Project 2">
+      <h3>Project Two</h3>
+      <p>A brief description of your project goes here.</p>
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2>Resume</h2>
+    <!-- Make sure the PDF is in the "files" folder in your project -->
+    <a href= "files/resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: siprakundu2004@gmail.com</p>
+    <p>Phone: 8927760086</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sipra Kundu. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
