@@ -23,3 +23,9 @@ It highlights my **skills, projects, resume, and contact information** in a simp
 │ ├── siprakundu.jpg # Profile photo
 │ ├── calculator_project.png # Project screenshot
 │ └── project2.png # Placeholder for another project
+
+
+🛠️ Technologies Used
+HTML5
+CSS
+JavaScript
