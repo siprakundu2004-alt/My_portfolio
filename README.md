@@ -26,6 +26,6 @@ It highlights my **skills, projects, resume, and contact information** in a simp
 
 
 🛠️ Technologies Used
-HTML5
-CSS
-JavaScript
+- HTML5
+- CSS
+- JavaScript
